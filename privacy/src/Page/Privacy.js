@@ -1,22 +1,22 @@
 import React from 'react';
 import './PrivacyPolicy.css';
-// import privacyBanner1 from './assets/privacy-banner1.jpg';
-import privacyBanner from './assets/privacy-banner.jpg';
+import privacyBanner1 from './assets/privacy-banner1.jpg';
+// import privacyBanner from './assets/privacy-banner.jpg';
 
 
 const PrivacyPolicy = () => {
     return (
         <div className="privacy-policy-container">
-            {/* <img
+            <img
                 src={privacyBanner1}
                 alt="Privacy Policy Banner"
                 className="privacy-policy-banner"
-            /> */}
-            <img
+            />
+            {/* <img
                 src={privacyBanner}
                 alt="Privacy Policy Banner"
                 className="privacy-policy-banner"
-            />
+            /> */}
             <h1 className="privacy-policy-title">Privacy Policy</h1>
             <p>
                 At Shree Harini Promoters and Builders, we respect and value your privacy. This Privacy Policy explains how we collect, use, disclose, and protect your information.
@@ -99,20 +99,20 @@ const PrivacyPolicy = () => {
             <p className='contact'>
                 If you have any questions, comments, or concerns about this Privacy Policy, please contact us:
                 <br />
-                <strong>abiproperties and Builders</strong>
+                <strong>Shree Harini Promoters and Builders</strong>
                 <br />
-                {/* <p>
+                <p>
                     Email:
                     <a href="mailto:shreeharinipromotersbuilders@gmail.com" className="contact-email">
                         shreeharinipromotersbuilders@gmail.com
                     </a>
-                </p> */}
-                <p>
+                </p>
+                {/* <p>
                     Email:
                     <a href="mailto:abiproperties123@gmail.com" className="contact-email">
                     abiproperties123@gmail.com
                     </a>
-                </p>
+                </p> */}
 
             </p>
         </div>
