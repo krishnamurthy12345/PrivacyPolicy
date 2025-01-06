@@ -1,6 +1,6 @@
 import React from 'react';
 import './PrivacyPolicy.css';
-import privacyBanner from './assets/privacy-banner.jpg';
+import privacyBanner from './assets/privacy-banner1.jpg';
 
 
 const PrivacyPolicy = () => {
